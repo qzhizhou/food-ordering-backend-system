@@ -94,7 +94,7 @@ Create an order
 POST localhost:8002/api/restaurants/{rid}/orders
 {
     "restaurantId": <restaurant_id>,
-    "items":
+    "foodItems":
     [
         {
             "name": <menu_item_name>,
@@ -117,7 +117,7 @@ HttpStatus.CREATED
 {
     "id": <order_id>,
     "restaurantId": <restaurant_id>,
-    "items":
+    "foodItems":
     [
         {
             "name": <menu_item_name>,
@@ -185,7 +185,7 @@ Order complete
 POST localhost:8005/api/orders
 {
     "id": <order_id>,
-    "items":
+    "foodItems":
     [
         {
             "name": <menu_item_name>,
@@ -300,7 +300,7 @@ Create an order
 POST localhost:8002/api/restaurants/11111111-1111-1111-11111111111111111/orders
 {
     "restaurantId": "11111111-1111-1111-11111111111111111",
-    "items": [
+    "foodItems": [
         {
             "name": "menuItem 1",
             "price": 11,
