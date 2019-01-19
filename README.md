@@ -1,6 +1,6 @@
 # Develop a Food Ordering Backend System
 
-This is a system designed in **Spring Boot/Data/Cloud/Microservices architecture** to provide **REST** APIs for food ordering/delivery system.
+This is a system designed in **Spring Boot/Spring Data/Spring Cloud/Microservices architecture** to provide **REST** APIs for food ordering/delivery system.
 
 ## Development environment
 - **Mongo DB** is running on **docker**, image specified in **docker-compose.yml** file, and started by **docker-compose**.
@@ -365,7 +365,7 @@ sendMessage triggered
 {
   "id": "5903e81327b884525eb9a5be",
   "restaurantId": "11111111-1111-1111-11111111111111111",
-  "items": [
+  "foodItems": [
      {
        "name": "menuItem 1",
        "price": 11,
