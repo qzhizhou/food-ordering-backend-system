@@ -1,4 +1,4 @@
-# Develop a Food Ordering System using Microservices architecture and Spring Cloud
+# Develop a Food Ordering Backend System using Spring Cloud and Microservices architecture
 
 This is a system designed in **Spring Boot/Data/Cloud** to provide **REST** APIs for food ordering/delivery system.
 
@@ -12,7 +12,7 @@ This is a system designed in **Spring Boot/Data/Cloud** to provide **REST** APIs
 - **Spring Cloud** is used to provide infrastructure services.
 - **Eureka** is used for microservices registration and discovery.
 - **Hystrix** is used as circuit breaker when failure to prevent avalanche in system.
-- **RabbitMQ** is used to decouple microservices.
+- **RabbitMQ** is used to decouple payment service.
 - **WebSocket** is used to send message to UI.
 - **RestTemplate** is used to communicate between microservices.
 
